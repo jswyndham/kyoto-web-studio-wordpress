@@ -1,0 +1,132 @@
+# CRITICAL: WordPress Configuration Files
+wp-config.php
+wp-config-local.php
+.env
+.env.local
+.env.production
+
+# CRITICAL: WordPress Core Files (Don't commit WordPress core)
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-admin/
+wp-blog-header.php
+wp-comments-post.php
+wp-cron.php
+wp-includes/
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# WordPress Content - Media and Uploads
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backups/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/languages/
+wp-content/themes/twentytwentythree/
+wp-content/themes/twentytwentyfour/
+wp-content/themes/twentytwentyfive/
+
+
+# Third-Party Plugins (Don't commit purchased/licensed plugins)
+wp-content/plugins/elementor/
+wp-content/plugins/elementor-pro/
+wp-content/plugins/wordfence/
+wp-content/plugins/updraftplus/
+wp-content/plugins/wordpress-seo/
+wp-content/plugins/premium-addons-for-elementor/
+wp-content/plugins/premium-addons-pro/
+wp-content/plugins/jetpack/
+wp-content/plugins/akismet/
+wp-content/plugins/hostinger/
+wp-content/plugins/hostinger-ai-assistant/
+wp-content/plugins/hostinger-easy-onboarding/
+wp-content/plugins/litespeed-cache/
+
+# Default WordPress Themes
+wp-content/themes/twentytwentyone/
+wp-content/themes/twentytwentytwo/
+wp-content/themes/twentytwentythree/
+wp-content/themes/twentytwentyfour/
+wp-content/themes/twentytwentyfive/
+wp-content/themes/hello-elementor/
+
+# Hostinger Specific Files
+wp-content/mu-plugins/
+.htaccess
+.htaccess.bk
+error_log
+access_log
+.well-known/
+
+# Database Files
+*.sql
+*.sql.gz
+*.sql.bz2
+*.sqlite
+
+# Log Files
+*.log
+logs/
+error_log
+access_log
+debug.log
+
+# Temporary and Cache Files
+*.tmp
+*.temp
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Security Keys and Sensitive Data
+auth_key.txt
+secure_auth_key.txt
+logged_in_key.txt
+nonce_key.txt
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Node.js and Build Tools (if you use them)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# WordPress CLI
+wp-cli.phar
+wp-cli.yml
+
+# What TO INCLUDE (Your Custom Work)
+# Remove the ! lines below and replace with actual custom directories
+# Example: !wp-content/themes/my-custom-theme/
+# Example: !wp-content/plugins/my-custom-plugin/
